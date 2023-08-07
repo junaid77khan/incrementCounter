@@ -1,0 +1,54 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #30356E;
+    display: grid;
+    place-items: center;
+    color: white;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.counter{
+    font-size: 3rem;
+    color: #FFB11F;
+}
+
+.icon{
+    margin-bottom: 1rem;
+}
+
+
+.para{
+    font-size: 2rem;
+}
+
+@media (max-width : 1000px) {
+    .icon{
+        font-size: .8rem;
+    }
+    .counter {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .para {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width : 496px) {
+    .icon{
+        font-size: .5rem;
+    }
+    .counter {
+        font-size: 1.6rem;
+        margin-bottom: .7rem;
+    }
+    .para {
+        font-size: 1.1rem;
+    }
+}
